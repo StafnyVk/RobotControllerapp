@@ -1,0 +1,58 @@
+Running `(cd /Users/roviandsouza/.pub-cache/hosted/pub.dev/objective_c-9.3.0/; ANDROID_HOME=/Users/roviandsouza/Library/Android/sdk TMPDIR=/var/folders/3c/0ny2zl_n2nlg39tl689drlm40000gn/T/ PATH=/Applications/Xcode.app/Contents/SharedFrameworks/SwiftBuild.framework/Versions/A/PlugIns/SWBBuildService.bundle/Contents/PlugIns/SWBUniversalPlatformPlugin.bundle/Contents/Frameworks/SWBUniversalPlatform.framework/Resources:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/local/bin:/Users/roviandsouza/Development/flutter/bin:/Users/roviandsouza/.bun/bin:/Users/roviandsouza/.antigravity/antigravity/bin:/Users/roviandsouza/google-cloud-sdk/bin:/Users/roviandsouza/Library/Android/sdk/emulator:/Users/roviandsouza/Library/Android/sdk/tools:/Users/roviandsouza/Library/Android/sdk/platform-tools:/Users/roviandsouza/.nvm/versions/node/v22.21.1/bin:/Users/roviandsouza/.rbenv/shims:/usr/local/bin/python3:/usr/local/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/opt/pmk/env/global/bin:/Library/Apple/usr/bin:/Users/roviandsouza/Development/flutter/.pub-cache/bin:/Users/roviandsouza/.pub-cache/bin:/opt/homebrew/opt/dart/libexec/bin HOME=/Users/roviandsouza /Users/roviandsouza/Development/flutter/bin/cache/dart-sdk/bin/dart --packages=/Users/roviandsouza/EngineeredArtsTechTest/.dart_tool/package_config.json /Users/roviandsouza/EngineeredArtsTechTest/.dart_tool/hooks_runner/objective_c/9f22e6a04e7d57ddc53af6565b2f38d4/hook.dill --config=/Users/roviandsouza/EngineeredArtsTechTest/.dart_tool/hooks_runner/objective_c/9f22e6a04e7d57ddc53af6565b2f38d4/input.json )`.
+INFO: 2026-04-27 08:55:24.984138: Running `/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang --version`.
+
+INFO: 2026-04-27 08:55:25.106857: Running `/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang --version`.
+
+INFO: 2026-04-27 08:55:25.123610: Running: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk -target arm64-apple-ios-simulator -mios-version-min=12 -c /Users/roviandsouza/.pub-cache/hosted/pub.dev/objective_c-9.3.0/src/include/dart_api_dl.c -fpic -I src -o /Users/roviandsouza/EngineeredArtsTechTest/.dart_tool/hooks_runner/shared/objective_c/build/9f22e6a04e/obj/src/include/dart_api_dl.c.o
+
+INFO: 2026-04-27 08:55:25.123953: Running: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk -target arm64-apple-ios-simulator -mios-version-min=12 -c /Users/roviandsouza/.pub-cache/hosted/pub.dev/objective_c-9.3.0/src/objective_c.c -fpic -I src -o /Users/roviandsouza/EngineeredArtsTechTest/.dart_tool/hooks_runner/shared/objective_c/build/9f22e6a04e/obj/src/objective_c.c.o
+
+INFO: 2026-04-27 08:55:25.124083: Running: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk -target arm64-apple-ios-simulator -mios-version-min=12 -x objective-c -fobjc-arc -c /Users/roviandsouza/.pub-cache/hosted/pub.dev/objective_c-9.3.0/src/input_stream_adapter.m -fpic -I src -o /Users/roviandsouza/EngineeredArtsTechTest/.dart_tool/hooks_runner/shared/objective_c/build/9f22e6a04e/obj/src/input_stream_adapter.m.o
+
+INFO: 2026-04-27 08:55:25.124332: Running: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk -target arm64-apple-ios-simulator -mios-version-min=12 -x objective-c -fobjc-arc -c /Users/roviandsouza/.pub-cache/hosted/pub.dev/objective_c-9.3.0/src/observer.m -fpic -I src -o /Users/roviandsouza/EngineeredArtsTechTest/.dart_tool/hooks_runner/shared/objective_c/build/9f22e6a04e/obj/src/observer.m.o
+
+.m.o
+
+INFO: 2026-04-27 08:55:25.124537: Running: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk -target arm64-apple-ios-simulator -mios-version-min=12 -x objective-c -fobjc-arc -c /Users/roviandsouza/.pub-cache/hosted/pub.dev/objective_c-9.3.0/src/ns_number.m -fpic -I src -o /Users/roviandsouza/EngineeredArtsTechTest/.dart_tool/hooks_runner/shared/objective_c/build/9f22e6a04e/obj/src/ns_number.m.o
+
+INFO: 2026-04-27 08:55:25.124780: Running: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk -target arm64-apple-ios-simulator -mios-version-min=12 -x objective-c -fobjc-arc -c /Users/roviandsouza/.pub-cache/hosted/pub.dev/objective_c-9.3.0/src/objective_c_bindings_generated.m -fpic -I src -o /Users/roviandsouza/EngineeredArtsTechTest/.dart_tool/hooks_runner/shared/objective_c/build/9f22e6a04e/obj/src/objective_c_bindings_generated.m.o
+
+INFO: 2026-04-27 08:55:25.247007: 
+INFO: 2026-04-27 08:55:25.247268: 
+INFO: 2026-04-27 08:55:25.247349: Generated /Users/roviandsouza/EngineeredArtsTechTest/.dart_tool/hooks_runner/shared/objective_c/build/9f22e6a04e/obj/src/objective_c.c.o
+
+INFO: 2026-04-27 08:55:25.248436: 
+INFO: 2026-04-27 08:55:25.248478: 
+INFO: 2026-04-27 08:55:25.248491: Generated /Users/roviandsouza/EngineeredArtsTechTest/.dart_tool/hooks_runner/shared/objective_c/build/9f22e6a04e/obj/src/include/dart_api_dl.c.o
+
+INFO: 2026-04-27 08:55:25.250557: 
+INFO: 2026-04-27 08:55:25.250604: 
+INFO: 2026-04-27 08:55:25.250616: Generated /Users/roviandsouza/EngineeredArtsTechTest/.dart_tool/hooks_runner/shared/objective_c/build/9f22e6a04e/obj/src/observer.m.o
+
+INFO: 2026-04-27 08:55:25.253283: 
+INFO: 2026-04-27 08:55:25.253328: 
+INFO: 2026-04-27 08:55:25.253339: Generated /Users/roviandsouza/EngineeredArtsTechTest/.dart_tool/hooks_runner/shared/objective_c/build/9f22e6a04e/obj/src/protocol.m.o
+
+INFO: 2026-04-27 08:55:25.425278: 
+INFO: 2026-04-27 08:55:25.425321: 
+INFO: 2026-04-27 08:55:25.425332: Generated /Users/roviandsouza/EngineeredArtsTechTest/.dart_tool/hooks_runner/shared/objective_c/build/9f22e6a04e/obj/src/ns_number.m.o
+
+INFO: 2026-04-27 08:55:25.433960: 
+INFO: 2026-04-27 08:55:25.434002: 
+INFO: 2026-04-27 08:55:25.434013: Generated /Users/roviandsouza/EngineeredArtsTechTest/.dart_tool/hooks_runner/shared/objective_c/build/9f22e6a04e/obj/src/objective_c.m.o
+
+INFO: 2026-04-27 08:55:25.439105: 
+INFO: 2026-04-27 08:55:25.439143: 
+INFO: 2026-04-27 08:55:25.439155: Generated /Users/roviandsouza/EngineeredArtsTechTest/.dart_tool/hooks_runner/shared/objective_c/build/9f22e6a04e/obj/src/input_stream_adapter.m.o
+
+INFO: 2026-04-27 08:55:25.459949: 
+INFO: 2026-04-27 08:55:25.459993: 
+INFO: 2026-04-27 08:55:25.460003: Generated /Users/roviandsouza/EngineeredArtsTechTest/.dart_tool/hooks_runner/shared/objective_c/build/9f22e6a04e/obj/src/objective_c_bindings_generated.m.o
+
+INFO: 2026-04-27 08:55:25.460576: Running: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -shared -Wl,-encryptable -undefined dynamic_lookup -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk -target arm64-apple-ios-simulator -mios-version-min=12 /Users/roviandsouza/EngineeredArtsTechTest/.dart_tool/hooks_runner/shared/objective_c/build/9f22e6a04e/obj/src/include/dart_api_dl.c.o /Users/roviandsouza/EngineeredArtsTechTest/.dart_tool/hooks_runner/shared/objective_c/build/9f22e6a04e/obj/src/objective_c.c.o /Users/roviandsouza/EngineeredArtsTechTest/.dart_tool/hooks_runner/shared/objective_c/build/9f22e6a04e/obj/src/input_stream_adapter.m.o /Users/roviandsouza/EngineeredArtsTechTest/.dart_tool/hooks_runner/shared/objective_c/build/9f22e6a04e/obj/src/objective_c.m.o /Users/roviandsouza/EngineeredArtsTechTest/.dart_tool/hooks_runner/shared/objective_c/build/9f22e6a04e/obj/src/observer.m.o /Users/roviandsouza/EngineeredArtsTechTest/.dart_tool/hooks_runner/shared/objective_c/build/9f22e6a04e/obj/src/ns_number.m.o /Users/roviandsouza/EngineeredArtsTechTest/.dart_tool/hooks_runner/shared/objective_c/build/9f22e6a04e/obj/src/protocol.m.o /Users/roviandsouza/EngineeredArtsTechTest/.dart_tool/hooks_runner/shared/objective_c/build/9f22e6a04e/obj/src/objective_c_bindings_generated.m.o -o /Users/roviandsouza/EngineeredArtsTechTest/.dart_tool/hooks_runner/shared/objective_c/build/9f22e6a04e/objective_c.dylib
+
+INFO: 2026-04-27 08:55:25.591324: 
+INFO: 2026-04-27 08:55:25.591381: ld: warning: -undefined dynamic_lookup is deprecated on iOS-simulator
+
+INFO: 2026-04-27 08:55:25.591399: Generated /Users/roviandsouza/EngineeredArtsTechTest/.dart_tool/hooks_runner/shared/objective_c/build/9f22e6a04e/objective_c.dylib
+

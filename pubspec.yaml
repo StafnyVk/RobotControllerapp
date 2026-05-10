@@ -1,0 +1,72 @@
+name: robot_controller_app
+description: Monorepo workspace root for the robot remote control app.
+publish_to: "none"
+
+environment:
+  sdk: ">=3.5.0 <4.0.0"
+  flutter: ">=3.24.0 <4.0.0"
+
+workspace:
+  - app
+  - design_system
+  - robot_service
+  - robot_simulator
+
+dependencies:
+  # Flutter
+  flutter:
+    sdk: flutter
+  
+  # State & DI
+  flutter_bloc: ^8.1.6
+  get_it: ^7.7.0
+  injectable: ^2.4.4
+  equatable: ^2.0.5
+  
+  # Network & Concurrency
+  http: ^1.2.2
+  web_socket_channel: ^3.0.1
+  connectivity_plus: ^6.0.5
+  
+  # Tooling & Code Gen
+  freezed_annotation: ^2.4.4
+  json_annotation: ^4.9.0
+  auto_route: ^9.2.2
+  doso: ^1.1.1
+  
+  # Storage & Utilities
+  shared_preferences: ^2.3.2
+  uuid: ^4.5.0
+  live_activities: ^2.0.0
+  flutter_local_notifications: ^17.2.2
+  url_launcher: ^6.3.0
+  
+  # Design System
+  google_fonts: ^6.2.1
+  flutter_screenutil: ^5.9.3
+
+  # Simulator specific
+  shelf: ^1.4.2
+  shelf_router: ^1.1.4
+  shelf_web_socket: ^3.0.0
+  args: ^2.5.0
+
+dev_dependencies:
+  # Test
+  flutter_test:
+    sdk: flutter
+  test: ^1.25.8
+  bloc_test: ^9.1.7
+  mocktail: ^1.0.4
+
+  # Build Runner & Code Gen
+  build_runner: ^2.4.13
+  freezed: ^2.5.7
+  json_serializable: ^6.8.0
+  injectable_generator: ^2.6.2
+  auto_route_generator: ^9.0.0
+  
+  # Lints
+  flutter_lints: ^4.0.0
+  
+  melos: ^6.0.0

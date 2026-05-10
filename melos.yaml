@@ -1,0 +1,105 @@
+name: RobotControllerapp
+
+packages:
+  - app
+  - design_system
+  - robot_service
+  - robot_simulator
+
+command:
+  bootstrap:
+    usePubspecOverrides: false
+
+scripts:
+  ###############################################
+  ##              BUILD COMMANDS               ##
+  ###############################################
+  build:pub_get:all:
+    run: flutter pub get
+    exec:
+      concurrency: 6
+    description: Install all dependencies
+
+  build:clean:
+    run: flutter clean && flutter pub get
+    exec:
+      concurrency: 6
+    description: Clean Flutter package and install dependencies
+
+  build:clean:all:
+    run: melos run --no-select build:clean
+    description: Clean and reinstall deps for all packages
+
+  build:codegen:build:
+    run: flutter pub run build_runner build --delete-conflicting-outputs
+    exec:
+      concurrency: 1
+      orderDependents: true
+    packageFilters:
+      dependsOn: "build_runner"
+    description: Run code generation for a package
+
+  build:codegen:build:all:
+    run: melos run build:codegen:build --no-select
+    description: Run code generation for every package
+
+  build:codegen:watch:
+    run: flutter pub run build_runner watch --delete-conflicting-outputs
+    exec:
+      orderDependents: true
+    packageFilters:
+      dependsOn: "build_runner"
+    description: Watch mode codegen
+
+  ###############################################
+  ##             QUALITY COMMANDS              ##
+  ###############################################
+  quality:analyze:
+    exec: flutter analyze --no-fatal-infos --no-fatal-warnings
+    select-package:
+      dir-exists:
+        - lib
+    description: Static analysis for a package
+
+  quality:analyze:all:
+    run: melos run --no-select quality:analyze
+    description: Static analysis for all packages
+
+  ###############################################
+  ##              TEST COMMANDS                ##
+  ###############################################
+  test:
+    run: flutter test --no-pub --reporter compact
+    exec:
+      concurrency: 6
+    select-package:
+      dir-exists:
+        - test
+    description: Run tests for a package
+
+  test:all:
+    run: melos run test --no-select
+    description: Run tests across all packages
+
+  ###############################################
+  ##               RUN COMMANDS                ##
+  ###############################################
+  run:simulator:
+    exec: dart run robot_simulator:server
+    select-package:
+      scope: "robot_simulator"
+    description: Start the simulated robot API
+
+  run:dev-app:
+    exec: flutter run -t 'MELOS_ROOT_PATH/app/lib/main_dev.dart' --flavor dev
+    select-package:
+      scope: "robot_controller_app"
+
+  run:prod-app:
+    exec: flutter run -t 'MELOS_ROOT_PATH/app/lib/main_prod.dart' --flavor prod
+    select-package:
+      scope: "robot_controller_app"
+
+environment:
+  sdk: ">=3.5.0 <4.0.0"
+  flutter: ">=3.24.0 <4.0.0"
